@@ -14,6 +14,8 @@
 		DB8596152366E8BE008F2587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8596142366E8BE008F2587 /* Assets.xcassets */; };
 		DB8596182366E8BE008F2587 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8596172366E8BE008F2587 /* Preview Assets.xcassets */; };
 		DB85961B2366E8BE008F2587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8596192366E8BE008F2587 /* LaunchScreen.storyboard */; };
+		DB8596232366EB0B008F2587 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8596222366EB0B008F2587 /* ToDoItem.swift */; };
+		DB85962523674B77008F2587 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB85962423674B77008F2587 /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DB8596172366E8BE008F2587 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB85961A2366E8BE008F2587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB85961C2366E8BE008F2587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8596222366EB0B008F2587 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		DB85962423674B77008F2587 /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				DB85960B2366E8BB008F2587 /* AppDelegate.swift */,
 				DB85960D2366E8BB008F2587 /* SceneDelegate.swift */,
 				DB8596122366E8BB008F2587 /* ContentView.swift */,
+				DB85962423674B77008F2587 /* ToDoItemView.swift */,
+				DB8596222366EB0B008F2587 /* ToDoItem.swift */,
 				DB8596142366E8BE008F2587 /* Assets.xcassets */,
 				DB8596192366E8BE008F2587 /* LaunchScreen.storyboard */,
 				DB85961C2366E8BE008F2587 /* Info.plist */,
@@ -150,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB85960C2366E8BB008F2587 /* AppDelegate.swift in Sources */,
+				DB85962523674B77008F2587 /* ToDoItemView.swift in Sources */,
 				DB85960E2366E8BB008F2587 /* SceneDelegate.swift in Sources */,
+				DB8596232366EB0B008F2587 /* ToDoItem.swift in Sources */,
 				DB8596132366E8BB008F2587 /* ContentView.swift in Sources */,
 				DB8596112366E8BB008F2587 /* CoreDataToDo.xcdatamodeld in Sources */,
 			);
